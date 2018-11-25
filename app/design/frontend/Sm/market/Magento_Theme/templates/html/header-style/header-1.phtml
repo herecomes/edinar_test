@@ -47,16 +47,14 @@
 							<a href="javascript:void(0)" title="<?php echo __('All Categories') ?>"><?php echo __('All Categories') ?></a>
 						</div>
 						
-						<div class="menu-ver-content hctesta">
-							<!-- <?php /*
+						<div class="menu-ver-content">
+							<?php
 							if ($_config->getGeneral('menu_style') == 'megamenu') {
 								echo $block->getChildHtml('navigation-header-megamenu');
 							} else {
 								echo $block->getChildHtml('navigation-header');
 							}
-							*/ ?> -->
-							<?php echo $block->getLayout()->createBlock('Magento\Cms\Block\Block')->setBlockId('verMenu')->toHtml(); ?>
-
+							?>
 						</div>
 					</div>
 					

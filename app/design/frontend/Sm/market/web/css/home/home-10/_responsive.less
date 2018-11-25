@@ -1,3 +1,43 @@
+/* hc */
+
+@media (max-width: 1199px) {
+    div.hc_sliderInfo{
+        .hc_sliderButton{
+            width: 250px;
+        }
+    } 
+    div.hc_bannerInfo{
+        .hc_bannerButton{
+            width: 250px;
+        }
+    } 
+    div.hc_bannerInfo {
+        top: 28%;
+    }
+
+    .home-page-10 {
+        div.banner3-id10 {
+            ul {
+                li {
+                    &:first-child {
+                        width: 75%;
+                        display: inline-block;
+                    }
+                }
+            }
+        }
+    }
+
+
+}
+
+@media (max-width: 1024px) {
+    div.hc_sliderInfo {
+        top: 19%;
+    }
+}
+/* /hc */
+
 @media (min-width: 1200px) {
     .home-10-style {
         .breadcrumbs {
@@ -67,6 +107,19 @@
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+/* hc */
+
+    div.hc_bannerInfo {
+        top: 21%;
+    }
+    .hc_banner2Info{
+        .hc_banner2Button {
+            font-size: 15px;
+            padding: 10px 15px;
+        }
+    } 
+
+/* /hc */
     .products-grid .item .item-inner .box-info .bottom-action .btn-action.btn-cart::before {
         display: inline-block !important;
     }
@@ -136,6 +189,58 @@
 }
 
 @media (max-width: 767px) {
+/* hc */
+
+    div.hc_sliderInfo{
+        .hc_sliderButton{
+            width: 200px;
+        }
+    } 
+    div.hc_bannerInfo{
+        .hc_bannerText {
+            h2 {
+                text-align: left;
+            }
+        }
+        .hc_bannerButton{
+            width: 200px;
+        }
+    }
+
+    .home-page-10 {
+        .banner3-id10 {
+            ul {
+                text-align:center;
+                li {
+                    &:nth-child(2) {
+                        display: none;
+                    }
+                }
+            }
+        }
+        .services-home {
+            .banner-policy {
+                .inner {
+                    .policy {
+                        a {
+                            text-align: center;
+                        }
+                    }
+                    div.policy {
+                        a {
+                            * {
+                                display: inline-block;
+                                width: auto;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+/* /hc */
     .home-10-style {
         .page-main {
             width: auto !important;
@@ -246,4 +351,18 @@
     .home-page-10 .listingtab-custom .sm-listing-tabs .ltabs-tabs-container .ltabs-tabs-wrap .ltabs-current-select {
         display: block !important;
     }
+    /* hc */
+    .home-page-10 {
+        div.banner3-id10 {
+            ul {
+                li {
+                    &:first-child {
+                        width: 100%;
+                        display: inline-block;
+                    }
+                }
+            }
+        }
+    }
+    /* /hc */
 }

@@ -1,5 +1,48 @@
+
+/* hc */
+
+@media (max-width: 1199px) {
+
+    .slideshow-banner {
+        .sm-imageslider {
+            .owl-carousel {
+                .owl-item {
+                    img {
+                        margin: auto;
+                    }
+                }
+            }
+        }
+    }
+    div.hc_sliderInfo {
+        top: 30%;
+    }
+    div.hc_sliderInfo{
+        .hc_sliderButton{
+            width: 250px;
+        }
+    } 
+    div.hc_bannerInfo{
+        .hc_bannerButton{
+            width: 250px;
+        }
+    } 
+}
+
+/* /hc */
 @media (min-width: 1200px) {
 
+}
+
+/* hc */
+
+@media (max-width: 1024px) {
+    div.hc_sliderInfo {
+        top: 34%;
+    }
+    div.hc_bannerInfo {
+        top: 18%;
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -35,7 +78,21 @@
     }
 }
 
+/* hc */
+
+@media (max-width: 991px) {
+
+}
+
 @media (min-width: 768px) and (max-width: 991px) {
+    div.hc_sliderInfo{
+        top:28%;
+    }
+    div.hc_bannerInfo{
+        top: 7%;
+        left: 8%;
+    }
+    /* /hc */
     .home-page-8 {
         .right-content-index {
             .slideshow-banner {
@@ -242,7 +299,7 @@
     .home-page-8 .services-home .banner-policy .inner {
         padding: 0;
 
-        .policy {
+        div.policy {
             width: 100%;
             border: none;
 
@@ -252,8 +309,14 @@
 
             a {
                 padding: 20px 0;
+                text-align:center;
+                *{
+                    display: inline-block;
+                    width: auto;
+                }
             }
         }
+
     }
 
     .home-page-8 .sm-listing-tabs .ltabs-wrap .ltabs-tabs-container {
@@ -277,10 +340,56 @@
             width: 100%;
         }
     }
+
+    /* hc */
+
+    div.hc_bannerInfo{
+        top: 23%;
+        left: 9%;    
+    }
+    div.hc_sliderInfo{
+        .hc_sliderButton{
+            width: 200px;
+        }
+    } 
+    div.hc_bannerInfo{
+        .hc_bannerButton{
+            width: 200px;
+        }
+    } 
+    /* /hc */
 }
 
 @media (max-width: 480px) {
     .home-page-8 .listingtab-custom .sm-listing-tabs .ltabs-tabs-container .ltabs-tabs-wrap .ltabs-current-select {
         display: block !important;
     }
+
+    /* hc */
+
+    div.hc_bannerInfo{
+        top: 18%;
+        left: 5%;
+    }
+    div.hc_sliderInfo{
+        .hc_sliderButton{
+            width: 150px;
+        }
+    } 
+    div.hc_bannerInfo{
+        .hc_bannerButton{
+            width: 150px;
+        }
+    }
+    
+    div.home-page-8 {
+        .hc_featured_layout8 {
+            .block-content-products {
+                display: inline-block;
+            }
+        }
+    }
+
+
+    /* /hc */
 }

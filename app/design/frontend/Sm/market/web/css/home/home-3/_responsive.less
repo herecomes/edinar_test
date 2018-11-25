@@ -14,9 +14,35 @@
         }
     }
 }
+/* hc */
+
+@media (max-width: 1280px) {
+    div.hc_sliderInfo {
+        .hc_sliderButton{
+            width: auto;
+        }
+    }
+    div.hc_sliderInfo {
+        top: 16%;
+    }
+}
+
+/* /hc */
 
 @media (min-width: 992px) and (max-width: 1199px) {
-    .home-page-3 {
+    /* hc */
+
+    div.hc_bannerInfo {
+        top: 5%;
+        left: 8%;
+    }
+    .hc_banner2Info {
+        top:35%;
+    }
+
+    /* /hc */
+
+    .cms-home-demo-03 {
         .sm_megamenu_wrapper_vertical_menu .sm_megamenu_menu li a.sm_megamenu_head {
             padding: 10px;
         }
@@ -33,6 +59,7 @@
         .right-image-menu {
             margin: 0;
         }
+
     }
 
     .sm-categories {
@@ -56,14 +83,32 @@
 
 }
 
+/* hc */
+@media (max-width: 1199px) {
+    .hc_sliderInfo {
+        .hc_sliderButton{
+            max-width: 300px;
+        }
+    }
+}
+/* /hc */
+
 @media (min-width: 768px) and (max-width: 991px) {
-    .home-page-3 {
+    /* hc */
+
+    div.hc_bannerInfo{
+        top: 7%;
+        left: 6%;
+    }
+
+    /* /hc */
+
+    .cms-home-demo-03 {
         .static-image-5 .static-image {
             margin-left: -8px;
         }
 
-        .static-image-5,
-        .static-image-7 {
+        .static-image-5 {
             display: table;
         }
 
@@ -94,6 +139,11 @@
             display: block !important;
             width: 33.33%;
         }
+
+        .sm-imageslider .hc_sliderText span{
+            display: none;
+        }
+
     }
 
     .sm-categories {
@@ -111,11 +161,71 @@
         }
     }
 }
+    /* hc */
+@media (max-width: 991px) {
+    .home-style {
+        .sidebar-home {
+            .products-sidebar {
+                .block-content {
+                    float: left;
+                    margin-bottom: 30px;
+                    width:100%;
+                    .item.product.product-item {
+                        width: 50%;
+                        display: inline-block;
+                        float: left;
+                        margin: 0;
+                        &:nth-child(3) {
+                            display:none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .hc_sliderInfo{
+        .hc_sliderText{
+            h2 {
+                font-size:33px;
+            }   
+        }
+    }  
+    div.hc_sliderInfo {
+        top:25%;
+    }
+    div.hc_sliderInfo{
+        .hc_sliderButton{
+            width: 200px;
+        }
+    } 
+    .cms-home-demo-03{
+        div.static-image-7{
+            display:none;
+        }
+    } 
+}
 
 @media (max-width: 767px) {
-    .home-page-3 {
-        .static-image-5,
-        .static-image-7 {
+
+    
+    .hc_banner3Info {
+        top:13%;
+        .hc_banner3Text{
+            >span{
+                &:nth-child(1){
+                    display:none;
+                }
+                &:nth-child(3){
+                    display:none;
+                }
+            }
+        }
+    }
+
+    /* /hc */
+    
+    .cms-home-demo-03 {
+        .static-image-5 {
             display: table;
         }
 
@@ -126,9 +236,11 @@
         .services-home .banner-policy .inner .policy {
             width: 50%;
             margin: 10px 0;
-
+            min-height: 115px;
+            height: 130px;
             a {
-                padding: 20px 0;
+                padding: 0;
+                height: 100%;
             }
         }
 
@@ -144,6 +256,10 @@
         .collections .collect {
             display: block !important;
             width: 50%;
+        }
+
+        .sm-imageslider .hc_sliderText span{
+            display: none;
         }
     }
 
@@ -183,7 +299,55 @@
     }
 }
 
+/* hc */
+@media (max-width: 550px) {
+
+}
+
 @media (max-width: 480px) {
+    .home-page-3{
+        .services-home {
+            .banner-policy {
+                .inner {
+                    div.policy {
+                        width: 100%;
+                        min-height: 100px;
+                        height: 100px;
+                        >a{
+                            text-align: center;
+                            >*{
+                                width: auto;
+                                display: inline-block;
+                                height: 100%;
+                                padding-top: 6%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .home-style {
+        .sidebar-home {
+            .products-sidebar {
+                .block-content {
+                    float: left;
+                    margin-bottom: 30px;
+                    width:100%;
+                    .item.product.product-item {
+                        width: 100%;
+                        display: inline-block;
+                        float: left;
+                        margin: 10px 0;
+                        &:nth-child(3) {
+                            display:inline-block;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    /* /hc */
     .home-page-3 {
         .sidebar-megamenu {
             display: none;

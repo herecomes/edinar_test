@@ -1,3 +1,13 @@
+/* hc */
+@media (max-width: 1199px) {
+    div.hc_sliderInfo {
+        .hc_sliderButton{
+            width: 200px;
+        }
+    }
+}
+/* /hc */
+
 @media (min-width: 1200px) {
     .sm-categories {
         .cat-wrap {
@@ -61,6 +71,16 @@
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+    /* hc */
+
+    div.hc_bannerInfo{
+        top:16%;
+    }
+    div.hc_sliderInfo{
+        top:32%;
+    }
+
+    /* /hc */
     .home-page-4 {
 
         .sm-deals.products-grid .item .item-inner .box-image {
@@ -104,6 +124,35 @@
 }
 
 @media (max-width: 767px) {
+    /* hc */
+
+    div.hc_bannerInfo{
+        top: 21%;
+        left: 10%;
+    }
+    div.hc_sliderInfo {
+        top: 33%;
+    }
+
+    .services-home {
+        .banner-policy {
+            .inner {
+                div.policy {
+                    width: 50%;
+                    margin: 10px 0;
+                    min-height: 115px;
+                    height: 130px;
+                    a {
+                        padding: 0;
+                        height: 100%;
+                    }
+                }
+            }
+        }
+    }
+
+    /* /hc */
+
     .home-page-4 {
 
         .sm-deals.products-grid .item .item-inner .box-image {
@@ -127,7 +176,8 @@
         .static-image-2 {
             .static-image {
                 float: left;
-                width: 33.33%;
+                /* width: 33.33%; */
+                width:100%;
 
                 a.image-top {
                     margin-bottom: 11px;
@@ -165,7 +215,7 @@
         }
     }
 
-    .home-page-4 .services-home .banner-policy .inner {
+    /*.home-page-4 .services-home .banner-policy .inner {
         padding: 0;
 
         .policy {
@@ -173,10 +223,102 @@
             padding-top: 0;
             padding-bottom: 0;
         }
-    }
+    }*/
 }
 
+/* hc */
+@media (max-width: 499px) {
+
+    .header-style-4 {
+        .header-middle {
+            >.container {
+                >div.row {
+                    width: 100%;
+                    display: inline-block;
+                    margin: auto;
+                }
+            }
+            div.logo-header {
+                width: 100%;
+                text-align: center;
+                display: inline-block;
+                float: none;
+                padding-top: 25px;
+            }
+            div.header-middle-right {
+                width: 100%;
+                display: inline-block;
+                float: none;
+                margin: auto;
+                div.middle-right-content {
+                    width: 100%;
+                    margin-top: 10px;
+                    text-align: center;
+                }
+                div.compare-header-wrapper {
+                    float: none;
+                    display: inline-block;
+                }
+                div.call-us {
+                    float: none;
+                    top: 14px;
+                    position: relative;
+                    margin-left: 20px;
+                }
+            }
+        }
+    }
+
+}
+/* /hc */
+
+
 @media (max-width: 480px) {
+    /* hc */
+
+    .header-style-4 {
+        .header-middle {
+            .middle-right-content {
+                div.currency-wrapper {
+                    display:none;
+                }
+            }
+        }
+    }
+    .home-page-4 {
+        .services-home {
+            .banner-policy {
+                .inner {
+                    div.policy {
+                        width: 100%;
+                        min-height: 100px;
+                        height: 100px;
+                        >a{
+                            text-align: center;
+                            >*{
+                                width: auto;
+                                display: inline-block;
+                                height: 100%;
+                                padding-top: 0%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .header-style-4 {
+        .header-middle {
+            div.header-middle-right {
+                div.middle-right-content {
+
+                }
+            }
+        }
+    }
+
+    /* /hc */
+
     .home-page-4 {
 
         .sm-deals.products-grid .item .item-inner .box-image {
